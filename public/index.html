@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razon | Next-Gen Aesthetics</title>
+    <!-- Modern Typography: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header class="glass-header">
+            <div class="logo">Razon<span>.</span></div>
+            <nav class="nav-controls">
+                <button id="theme-toggle" class="icon-btn">☀️</button>
+                <button id="cart-btn" class="glow-btn">
+                    Cart <span id="cart-count">0</span>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Elevate Your Reality.</h1>
+                <p>Discover premium tech engineered for the future.</p>
+            </section>
+
+            <!-- Functionality: Search, Filter, Sort -->
+            <section class="controls-toolbar">
+                <input type="text" id="search-input" placeholder="Search gear..." class="glass-input">
+                <select id="category-filter" class="glass-select">
+                    <option value="">All Categories</option>
+                </select>
+                <select id="sort-select" class="glass-select">
+                    <option value="">Sort By</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="name-asc">Name</option>
+                </select>
+            </section>
+
+            <section class="products-container" id="products-grid">
+                <!-- Products dynamically rendered here -->
+                <div class="loader">Loading Next-Gen Gear...</div>
+            </section>
+        </main>
+
+        <!-- Slide-out Cart Sidebar -->
+        <div id="cart-sidebar" class="cart-sidebar hidden">
+            <div class="cart-header">
+                <h2>Your Cart</h2>
+                <div class="cart-header-actions">
+                    <!-- Functionality: Clear Cart -->
+                    <button id="clear-cart-btn" class="text-btn">Clear</button>
+                    <button id="close-cart">&times;</button>
+                </div>
+            </div>
+            
+            <div id="cart-items" class="cart-items">
+                <!-- Cart items dynamically rendered -->
+            </div>
+            
+            <div class="cart-footer">
+                <!-- Functionality: Apply Promo Code -->
+                <div class="promo-container">
+                    <input type="text" id="promo-input" placeholder="Promo code (try RAZON20)" class="glass-input">
+                    <button id="apply-promo-btn" class="glow-btn small">Apply</button>
+                </div>
+                <!-- Functionality: Display Total & Discount -->
+                <div class="total" id="cart-total-container">
+                    <span id="cart-total">$0.00</span>
+                </div>
+                <!-- Functionality: Checkout -->
+                <button id="checkout-btn" class="glow-btn checkout-btn">Checkout</button>
+            </div>
+        </div>
+        <div id="cart-overlay" class="cart-overlay hidden"></div>
+        
+        <!-- Checkout Modal -->
+        <div id="checkout-modal" class="modal hidden">
+            <div class="modal-content glass-card">
+                <div class="modal-header">
+                    <h2>Finalize Order</h2>
+                    <button id="close-checkout-modal">&times;</button>
+                </div>
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="order-name">Full Name</label>
+                        <input type="text" id="order-name" class="glass-input" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="order-email">Email Address</label>
+                        <input type="email" id="order-email" class="glass-input" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="order-address">Shipping Address</label>
+                        <textarea id="order-address" class="glass-input" required placeholder="123 Future St, Neo Tokyo"></textarea>
+                    </div>
+                    <div class="order-summary-mini">
+                        <p>Total: <span id="checkout-modal-total">$0.00</span></p>
+                    </div>
+                    <button type="submit" id="place-order-btn" class="glow-btn full-width">Place Order</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Functionality: Toast Notification Container -->
+        <div id="toast-container" class="toast-container"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Neon Quantum Keyboard",
+    "price": 149.99,
+    "description": "Premium glassmorphism mechanical keyboard with RGB underglow.",
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=400",
+    "category": "Peripherals"
+  },
+  {
+    "id": 2,
+    "name": "Aero Noise-Canceling Headphones",
+    "price": 299.00,
+    "description": "Immersive sound profile with an ultra-lightweight dark aesthetic design.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=400",
+    "category": "Audio"
+  },
+  {
+    "id": 3,
+    "name": "Cyberpunk Smartwatch",
+    "price": 199.50,
+    "description": "Track your vitals with a futuristic edge-to-edge OLED display.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=400",
+    "category": "Wearables"
+  },
+  {
+    "id": 4,
+    "name": "Flux Gaming Mouse",
+    "price": 79.99,
+    "description": "Ultra-responsive 16k DPI optical sensor with a minimalist shell.",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=400",
+    "category": "Peripherals"
+  },
+  {
+    "id": 5,
+    "name": "Holographic Display Stand",
+    "price": 54.00,
+    "description": "Showcase your gear on a floating interactive glass hub.",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Void VR Headset",
+    "price": 499.00,
+    "description": "Enter the metaverse with 8K resolution per eye and haptic feedback.",
+    "image": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=400",
+    "category": "Gaming"
+  },
+  {
+    "id": 7,
+    "name": "Obsidian Console Controller",
+    "price": 69.99,
+    "description": "Pro-grade analog sticks with customizable paddles.",
+    "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&q=80&w=400",
+    "category": "Gaming"
+  },
+  {
+    "id": 8,
+    "name": "Aurora Studio Microphone",
+    "price": 129.00,
+    "description": "Broadcast-quality condenser mic with active noise suppression.",
+    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&q=80&w=400",
+    "category": "Audio"
+  },
+  {
+    "id": 9,
+    "name": "Plasma Wireless Speaker",
+    "price": 89.50,
+    "description": "360-degree high-fidelity audio wrapped in an aluminum core.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&q=80&w=400",
+    "category": "Audio"
+  },
+  {
+    "id": 10,
+    "name": "Stratus Nano Drone",
+    "price": 199.99,
+    "description": "Pocket-sized 4k drone with intelligent tracking features.",
+    "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?auto=format&fit=crop&q=80&w=400",
+    "category": "Cameras"
+  },
+  {
+    "id": 11,
+    "name": "Titan Mirrorless Camera",
+    "price": 899.00,
+    "description": "Professional 45MP full-frame sensor for crisp imagery.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400",
+    "category": "Cameras"
+  },
+  {
+    "id": 12,
+    "name": "Prime 50mm Lens",
+    "price": 249.00,
+    "description": "F1.4 aperture for stunning portraits and low-light performance.",
+    "image": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&q=80&w=400",
+    "category": "Cameras"
+  },
+  {
+    "id": 13,
+    "name": "Zenith Pro Laptop",
+    "price": 1299.00,
+    "description": "Ultra-thin workstation powered by an M-class neural engine.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400",
+    "category": "Computing"
+  },
+  {
+    "id": 14,
+    "name": "Slate Digital Tablet",
+    "price": 499.00,
+    "description": "Create freely with a paper-like display and active stylus.",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=400",
+    "category": "Computing"
+  },
+  {
+    "id": 15,
+    "name": "Nexus Smartphone X",
+    "price": 799.00,
+    "description": "Seamless titanium body with under-display camera technology.",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400",
+    "category": "Mobile"
+  },
+  {
+    "id": 16,
+    "name": "Oasis E-Reader",
+    "price": 119.99,
+    "description": "Store thousands of books on an adaptive glaring-free screen.",
+    "image": "https://images.unsplash.com/photo-1544640808-32ca72ac7f37?auto=format&fit=crop&q=80&w=400",
+    "category": "Mobile"
+  },
+  {
+    "id": 17,
+    "name": "Pulse Wireless Charger",
+    "price": 39.00,
+    "description": "Fast-charging glass pad compatible with all Qi devices.",
+    "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?auto=format&fit=crop&q=80&w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 18,
+    "name": "Echo Smart Home Hub",
+    "price": 149.00,
+    "description": "Control your entire house with your voice and smart touch panel.",
+    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=400",
+    "category": "Smart Home"
+  },
+  {
+    "id": 19,
+    "name": "Edge Action Camera",
+    "price": 299.00,
+    "description": "Rugged, waterproof 5K camera built for extreme environments.",
+    "image": "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?auto=format&fit=crop&q=80&w=400",
+    "category": "Cameras"
+  },
+  {
+    "id": 20,
+    "name": "Stealth Desk Mat",
+    "price": 24.99,
+    "description": "Premium extended mousepad with anti-slip rubber base.",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 21,
+    "name": "Orbit WiFi 6 Router",
+    "price": 199.00,
+    "description": "High-speed mesh networking router with beamforming tech.",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=400",
+    "category": "Networking"
+  }
+]
